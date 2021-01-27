@@ -1,0 +1,111 @@
+h1 {
+    color : rgb(4, 60, 65);
+    margin-left: 800px;
+}
+
+/* *{
+    border:solid;
+} */
+
+.menu {
+ margin-right: 70px;
+ margin-top :5px;
+    
+}
+
+.menu a{
+    margin-left: 20px;
+    
+}
+
+.header{
+
+    background-color: rgb(126, 238, 223);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+body{
+    background-color: rgb(245, 231, 212);
+}
+
+.Games{
+ 
+  display:flex;
+  flex-wrap: wrap;
+  
+  justify-content: space-evenly;
+
+
+}
+
+.Icons{
+
+ display: flex;
+ justify-content: flex-end;
+ margin-top:200px ;
+
+}
+
+p,h2{
+    text-align: center;
+    color: rgb(4, 60, 65); 
+}
+
+a:link {
+    color:black;
+}
+
+a:visited {
+    color : black
+}
+
+
+.Game{
+ position:relative ;
+ margin-left: 80px;
+ margin-top: 80px;
+}
+
+.Game h2{
+    color:  rgb(4, 60, 65);
+    position:absolute;
+    top :50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.Game:hover h2{
+    opacity: 1  ;
+}
+
+.Game:hover img{
+    opacity: 0.3  ;
+}
+
+
+.name{
+
+margin-top:100px;
+
+
+}
+
+.info{
+    margin-top: 100px;
+    margin-right: 500px;
+    margin-left: 500px;
+}
+
+.main{
+
+margin-left:1800px;
+
+}
+
+.email{
+    margin-right: 10px;
+}
+  
